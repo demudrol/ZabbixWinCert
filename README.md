@@ -27,6 +27,8 @@ UserParameter=cert.local.exp[*],powershell -NoProfile -ExecutionPolicy Bypass -F
 
 Добавить шаблон Template Windows Certificates.xml и дождаться окончания обнаружения.
 
+**ВАЖНО:** Для работы скрипта нужен как минимум PowerShell версии не ниже 2.
+
 
 ## Installation
 
@@ -50,3 +52,5 @@ UserParameter=cert.local.exp[*],powershell -NoProfile -ExecutionPolicy Bypass -F
 Change or write Friendly Name in propertys of needed cerificate. DO NOT MAKE SAME NAMES!
 
 Import "Template Windows Certificates.xml" and wait until discover rule complete job.
+
+**IMPORTANT:** PowerShell must be version 2 or higher.
